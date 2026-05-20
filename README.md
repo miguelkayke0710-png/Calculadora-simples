@@ -1,3 +1,3 @@
-# Jogo de adivinhha
+# Calculadora
 
 Primeiro projeto criado no python 
