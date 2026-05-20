@@ -2,7 +2,7 @@
 
 import math
  
-op = input ('o que vocé deseja fazer? (somar, subtrair, multiplicar, dividir, raiz) ')
+op = input ('O que vocé deseja fazer? (somar, subtrair, multiplicar, dividir, raiz) ')
 if op == "somar":
     num1 = float(input('Digite um numero: '))
     num2 = float(input('Digite outro numero: '))
