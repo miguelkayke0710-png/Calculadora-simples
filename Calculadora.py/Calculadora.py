@@ -1,0 +1,37 @@
+#Calculadora
+
+import math
+ 
+op = input ('O que vocé deseja fazer? (somar, subtrair, multiplicar, dividir, raiz) ')
+if op == "somar":
+    num1 = float(input('Digite um numero: '))
+    num2 = float(input('Digite outro numero: '))
+    r= num1 + num2
+    print ('a soma de {} + {} é igual a {}'.format (num1, num2, r))
+
+elif op == "subtrair":
+     num1 = float(input('Digite um numero: '))
+     num2 = float(input('Digite outro numero: '))
+     r= num1 - num2
+     print ('a subtração de {} - {} é igual a {}'.format (num1, num2, r))
+
+elif op == "multiplicar":
+      num1 = float(input('Digite um numero: '))
+      num2 = float(input('Digite outro numero: '))
+      r= num1 * num2
+      print ('a mutiplicação de {} * {} é igual a {}'.format (num1, num2, r))
+
+elif op == "dividir":
+    num1 = float(input('Digite um numero: '))
+    num2 = float(input('Digite outro numero: '))
+    if num2 == 0:
+        print ('náo é possivel dividir um número por 0, tente novamente')
+    else:
+        r= num1 / num2
+        print ('a divisão de {} / {} é igual a {}'.format (num1, num2, r))
+elif op == "raiz":
+    num1 = float(input('Digite um numero: '))
+    r= math.sqrt(num1)
+    print (' a raiz quadrada de {} é igual a {}'.format (num1, r))
+else:
+    print ('operação invalida, tente novamente')
